@@ -1,0 +1,11 @@
+#
+# This profile is for the domain whose UUID matches this file.
+#
+
+#include <tunables/global>
+
+profile libvirt-a53fb859-de30-4218-a0d1-2051627a93f5 flags=(attach_disconnected) {
+  #include <abstractions/libvirt-qemu>
+  #include <libvirt/libvirt-a53fb859-de30-4218-a0d1-2051627a93f5.files>
+
+}

@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit downloads
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>downloads</name>
+  <uuid>f50260c4-b69b-4c70-aba8-69c61fd0bb55</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/mnt/rclone/alist/smb/uvtb0immortalwrt0/aria2/downloads</path>
+  </target>
+</pool>

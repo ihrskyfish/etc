@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit wx
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>wx</name>
+  <uuid>58ad7434-b588-41b8-91ef-b0bd7b73b77d</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/var/lib/libvirt/images/wx</path>
+  </target>
+</pool>

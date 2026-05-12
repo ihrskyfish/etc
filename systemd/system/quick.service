@@ -1,0 +1,7 @@
+[Unit]
+Description=at keyboard
+
+[Service]
+Type=oneshot
+ExecStart=evtest --grab 
+RemainAfterExit=yes

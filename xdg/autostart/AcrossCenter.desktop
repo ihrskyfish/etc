@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=AcrossCenter
+Exec=/usr/local/bin/across/AcrossCenter
+Icon=across-Across
+Comment=Across Center
+X-GNOME-Autostart-enabled=true

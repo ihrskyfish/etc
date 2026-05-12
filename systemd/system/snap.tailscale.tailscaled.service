@@ -1,0 +1,19 @@
+[Unit]
+# Auto-generated, DO NOT EDIT
+Description=Service for snap application tailscale.tailscaled
+Requires=snap-tailscale-115.mount
+Wants=network.target
+After=snap-tailscale-115.mount network.target snapd.apparmor.service
+X-Snappy=yes
+
+[Service]
+EnvironmentFile=-/etc/environment
+ExecStart=/usr/bin/snap run tailscale.tailscaled
+SyslogIdentifier=tailscale.tailscaled
+Restart=on-failure
+WorkingDirectory=/var/snap/tailscale/115
+TimeoutStopSec=30s
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

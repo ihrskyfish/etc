@@ -1,0 +1,9 @@
+
+
+start(){
+echo 111 > /var/log/rc.local
+echo  111
+}
+
+echo 111 > /var/log/rc.local
+echo  111

@@ -1,0 +1,1 @@
+SUBSYSTEM=="input", KERNEL=="event3", ATTRS{name}=="AT Translated Set 2 keyboard", ATTR{authorized}="0"
