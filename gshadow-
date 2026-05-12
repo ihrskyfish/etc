@@ -84,7 +84,7 @@ snapd-range-524288-root:!::
 snap_daemon:!::
 lxc-dnsmasq:!::
 debian-tor:!::
-sddm:!::
 weston-launch:!::
 plocate:!::
 postfix:!::
+postdrop:!::
