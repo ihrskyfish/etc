@@ -70,7 +70,6 @@ colord:x:130:
 geoclue:x:131:
 pulse:x:132:
 pulse-access:x:133:
-gdm:x:134:
 lxd:x:135:ihrskyfish
 ihrskyfish:x:1000:
 sambashare:x:136:ihrskyfish

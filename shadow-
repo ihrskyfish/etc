@@ -43,7 +43,6 @@ colord:*:19977:0:99999:7:::
 geoclue:*:19977:0:99999:7:::
 pulse:*:19977:0:99999:7:::
 hplip:*:19977:0:99999:7:::
-gdm:*:19977:0:99999:7:::
 ihrskyfish:$y$j9T$DcU.9wFlfXIjfBQbJNFv7.$A/GzS9q3Ic5CJMiYLCoeIrvxpKnH5d0S6xrP6duwWoD:20114:0:99999:7:::
 sshd:*:20114:0:99999:7:::
 swtpm:*:20114:0:99999:7:::
@@ -54,3 +53,4 @@ snap_daemon:!:20151::::::
 lxc-dnsmasq:!:20352:0:99999:7:::
 debian-tor:*:20416:0:99999:7:::
 postfix:*:20580:0:99999:7:::
+sddm:*:20585:0:99999:7:::

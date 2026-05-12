@@ -87,3 +87,4 @@ weston-launch:x:145:
 plocate:x:146:
 postfix:x:147:
 postdrop:x:148:
+sddm:x:134:
